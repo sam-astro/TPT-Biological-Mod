@@ -33,7 +33,7 @@ void Element::Element_BLVI()
 	DefaultProperties.tmp = 100;
 
 	HeatConduct = 75;
-	Description = "Blood vessel input, clooects blood and transfers to any connected blood vessels";
+	Description = "Blood vessel input, clooects blood and transfers to any connected blood vessels (BLV)";
 
 	Properties = TYPE_SOLID | PROP_NEUTPENETRATE | PROP_LIFE_DEC | PROP_LIFE_KILL_DEC;
 
