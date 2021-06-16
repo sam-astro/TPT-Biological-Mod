@@ -33,7 +33,7 @@ void Element::Element_DFLE()
 	Weight = 100;
 
 	HeatConduct = 75;
-	Description = "Deforms and disappears under pressure.";
+	Description = "Dead flesh, turns into rotten flesh as it ages";
 
 	Properties = TYPE_SOLID | PROP_NEUTPENETRATE | PROP_LIFE_DEC | PROP_LIFE_KILL_DEC;
 
