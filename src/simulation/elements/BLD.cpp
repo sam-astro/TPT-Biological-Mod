@@ -61,21 +61,12 @@ static int update(UPDATE_FUNC_ARGS)
 			if (BOUNDS_CHECK && (rx || ry))
 			{
 				r = pmap[y + ry][x + rx];
-				if (TYP(r) == PT_FLE2)
+				if (TYP(r) == PT_FLE2 || TYP(r) == PT_FLE)
 				{
 					if (parts[ID(r)].tmp < 100 && parts[i].tmp > 5)
 					{
 						parts[ID(r)].tmp += 5;
 						parts[i].tmp -= 5;
-						parts[ID(r)].pavg[0] = parts[i].pavg[0];
-					}
-				}
-				if (TYP(r) == PT_FLE || TYP(r) == PT_WBCG)
-				{
-					if (parts[ID(r)].tmp < 100)
-					{
-						parts[ID(r)].tmp += 1;
-						parts[i].tmp -= 1;
 						parts[ID(r)].pavg[0] = parts[i].pavg[0];
 					}
 				}
@@ -88,14 +79,14 @@ static int update(UPDATE_FUNC_ARGS)
 						sim->kill_part(i);
 					}
 				}
-				//if (TYP(r) == PT_O2)
-				//{
-				//	if (parts[i].tmp < 100)
-				//	{
-				//		parts[i].tmp += 4;
-				//		parts[ID(r)].type = PT_CO2;
-				//	}
-				//}
+				if (TYP(r) == PT_O2)
+				{
+					if (parts[i].tmp < 100)
+					{
+						parts[i].tmp += 1;
+						parts[ID(r)].type = PT_CO2;
+					}
+				}
 				goto trade;
 			}
 
