@@ -37,7 +37,7 @@ void Element::Element_BONM()
 	DefaultProperties.tmp = 100;
 
 	HeatConduct = 75;
-	Description = "Deforms and disappears under pressure.";
+	Description = "Bone marrow, create blood. Deposits directly into blood vessel";
 
 	Properties = TYPE_SOLID | PROP_LIFE_DEC | PROP_LIFE_KILL_DEC | PROP_BLOODPASS;
 
