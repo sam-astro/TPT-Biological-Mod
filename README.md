@@ -3,7 +3,9 @@ Mod for the game "The powder toy" that introduces some biological elements
 
 This is all of the source code, but the build version is in <code>MostRecentBuild/powder.exe</code>
 
-> I do not own the original code for this, and the only things I created are the elements for this mod.
+Make sure to download updates from here often, since I am always making this mod better and fixing bugs
+
+I do not own the original code for this, and the only things I created are the elements for this mod.
 
 ## Features
 * BLD - Blood, absorbs oxygen. Will transfer oxygen to FLE, FLE2, and moves inside BLV
