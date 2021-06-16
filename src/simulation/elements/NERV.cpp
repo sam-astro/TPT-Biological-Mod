@@ -28,7 +28,7 @@ void Element::Element_NERV()
 	Weight = 100;
 
 	HeatConduct = 251;
-	Description = "The basic conductor. Meltable.";
+	Description = "Nerve, it conducts electricity but stays cool and burns instead of melting";
 
 	Properties = TYPE_SOLID|PROP_CONDUCTS|PROP_LIFE_DEC|PROP_HOT_GLOW;
 
