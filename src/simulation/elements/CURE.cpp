@@ -31,7 +31,7 @@ void Element::Element_CURE()
 	DefaultProperties.temp = R_TEMP - 2.0f + 273.15f;
 	DefaultProperties.tmp = 20;
 	HeatConduct = 29;
-	Description = "Cure, somewhat reverts dead flesh and may make invincible";
+	Description = "Cure, reverts dead and rotting flesh and too much could make the organism make invincible";
 
 	Properties = TYPE_LIQUID | PROP_NEUTPASS;
 
