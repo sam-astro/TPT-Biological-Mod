@@ -33,7 +33,7 @@ void Element::Element_BLDC()
 	DefaultProperties.tmp = 100;
 
 	HeatConduct = 75;
-	Description = "Deforms and disappears under pressure.";
+	Description = "Blood clot, solid form of blood";
 
 	Properties = TYPE_SOLID | PROP_LIFE_DEC | PROP_LIFE_KILL_DEC;
 
