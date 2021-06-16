@@ -33,7 +33,7 @@ void Element::Element_RFLE()
 	Weight = 100;
 
 	HeatConduct = 75;
-	Description = "Deforms and disappears under pressure.";
+	Description = "Rotten flesh, powdered, really dead flesh";
 
 	Properties = TYPE_PART | PROP_NEUTPENETRATE | PROP_LIFE_DEC | PROP_LIFE_KILL_DEC;
 
