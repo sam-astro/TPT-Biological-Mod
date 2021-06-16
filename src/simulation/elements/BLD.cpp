@@ -61,7 +61,7 @@ static int update(UPDATE_FUNC_ARGS)
 			if (BOUNDS_CHECK && (rx || ry))
 			{
 				r = pmap[y + ry][x + rx];
-				if (TYP(r) == PT_FLE2 || TYP(r) == PT_FLE)
+				if (TYP(r) == PT_FLE2 || TYP(r) == PT_FLE || TYP(r) == PT_WBCG)
 				{
 					if (parts[ID(r)].tmp < 100 && parts[i].tmp > 5)
 					{
