@@ -37,7 +37,7 @@ void Element::Element_BLVO()
 	DefaultProperties.tmp = 100;
 
 	HeatConduct = 75;
-	Description = "Deforms and disappears under pressure.";
+	Description = "Blood vessel output";
 
 	Properties = TYPE_SOLID | PROP_LIFE_DEC | PROP_LIFE_KILL_DEC | PROP_BLOODPASS;
 
