@@ -37,7 +37,7 @@ void Element::Element_WBCG()
 	DefaultProperties.tmp = 100;
 
 	HeatConduct = 75;
-	Description = "Deforms and disappears under pressure.";
+	Description = "White blood cell gland, creates white blood cells if it gets a supply of normal blood";
 
 	Properties = TYPE_SOLID | PROP_LIFE_DEC | PROP_LIFE_KILL_DEC | PROP_BLOODPASS;
 
