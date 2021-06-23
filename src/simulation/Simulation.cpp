@@ -5422,3 +5422,11 @@ static_assert(PMAPBITS <= 16, "PMAPBITS is too large");
 // * Whoever runs into a problem with this (e.g. with XRES = 612, YRES = 384 and
 //   PMAPBITS = 13) should just remove the check and take responsibility otherwise.
 static_assert(ce_log2(XRES) + ce_log2(YRES) + PMAPBITS <= 31, "not enough space in pmap");
+
+void Simulation::AudioManager(int r)
+{
+	int result;
+
+	//if (r)
+		//parts[ID(r)].type.
+}

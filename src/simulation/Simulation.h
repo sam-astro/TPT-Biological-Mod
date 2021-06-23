@@ -222,6 +222,7 @@ public:
 
 	String ElementResolve(int type, int ctype);
 	String BasicParticleInfo(Particle const &sample_part);
+	void AudioManager(int r);
 
 
 	struct CustomGOLData

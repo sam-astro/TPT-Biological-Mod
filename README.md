@@ -67,3 +67,4 @@ meson --backend=vs -Dbackend_startup_project=powder build-debug-vs
 <ul><li> you will not need the VS dev prompt beyond this point</li></ul>
 <p>This will generate a build site with a Visual Studio solution inside (<code>the-powder-toy.sln</code>). You can use this as any other solution.
 </p>
+ 
